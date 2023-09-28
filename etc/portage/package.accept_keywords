@@ -1,0 +1,21 @@
+# tools
+sys-fs/duf ~amd64
+gui-apps/wlsunset ~amd64
+app-text/tldr ~amd64
+gui-apps/wev ~amd64
+dev-db/dbeaver-bin ~amd64
+gui-apps/swappy ~amd64
+media-gfx/swayimg ~amd64
+app-editors/vscode ~amd64
+app-containers/docker-compose **
+app-editors/helix ~amd64
+app-misc/nnn ~amd64
+app-misc/ddcutil ~amd64
+
+# language server
+dev-util/lua-language-server ~amd64
+
+# xiaoyifang/goldendict
+app-text/goldendict **
+dev-libs/libthai ~amd64
+dev-libs/libdatrie ~amd64
