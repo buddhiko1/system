@@ -4,16 +4,14 @@ ncdu
 btop
 mako
 wev
-nnn
 docker
 docker-compose
 gitui
+broot
 codespell
 helix
 neovim
 tilda
-sioyek
-goldendict-ng
 fcitx5-rime
 nodejs
 wlsunset
