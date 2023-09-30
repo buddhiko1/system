@@ -1,4 +1,4 @@
-## Partition and filesystemx
+## Partition and filesystem
 
 - Make true that system is boot in EFI mode: `ls /sys/firmware/efi/efivars`.
 - Create partition with cgdisk.
