@@ -5,6 +5,9 @@
 
 ## rime
   - https://rime.im
+  
+## magic touchpad
+  - https://github.com/imbushuo/mac-precision-touchpad
 
 ## ssh
   - Generate ssh key `ssh-keygen -t ed25519 -C "example@outlook.com"`.

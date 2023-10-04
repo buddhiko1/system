@@ -1,29 +1,12 @@
 ﻿; variables
 HOME := "C:\Users\buddh"
-SIOYEK_DIR := HOME . "\Documents\Software\sioyek-release-windows"
 WIREGUARD_CONF := HOME . "\Documents\client.conf"
-CHROME_DIR := "C:\Program Files\Google\Chrome"
+VIVALDI_DIR := "C:\Users\buddh\AppData\Local\Vivaldi\Application"
 
 ; switch input method
 ^Space::
   {
     Send "^{Shift}"
-    return
-  }
-
-  ; CapsLock to Esc
-  #HotIf WinActive("ahk_exe qutebrowser.exe") or WinActive("ahk_exe alacrrity.exe") or WinActive("ahk_exe sioyek.exe")
-CapsLock::
-  {
-    Send "{Esc}"
-    return
-  }
-  #HotIf
- 
-  ; search
-#m::
-  {
-    Send "#s"
     return
   }
 
@@ -73,44 +56,35 @@ CapsLock & d::
     return
   }
 
-  ; explorer
-#f::
+  ; file explorer
+#j::
   {
     Run "explorer"
     return
   }
 
-  ; alacrrity
+  ; terminal
 #Enter::
   {
-    Run ALACRITTY_DIR . "\start.bat"
-    return
-  }
-
-  ; qutebrowser
-#q::
-  {
-    if WinExist("ahk_exe qutebrowser.exe") {
-      WinActivate("ahk_exe qutebrowser.exe")
+    if WinExist("ahk_exe WindowsTerminal.exe") {
+      WinActivate("ahk_exe WindowsTerminal.exe")
     } else {
-      Run QUTEBROWSER_DIR . "\qutebrowser.exe"
-      Sleep 3000
-      WinActivate("ahk_exe qutebrowser.exe")
-      Send "{F11}"
+      Run "wt.exe"
+      Sleep 1000
+      WinActivate("ahk_exe WindowsTerminal.exe")
     }
     return
   }
 
-  ; PDF
-#p::
+  ; vivaldi
+#y::
   {
-    if WinExist("ahk_exe sioyek.exe") {
-      WinActivate("ahk_exe sioyek.exe")
+    if WinExist("ahk_exe vivaldi.exe") {
+      WinActivate("ahk_exe vivaldi.exe")
     } else {
-      Run SIOYEK_DIR . "\sioyek.exe"
-      Sleep 2000
-      WinActivate("ahk_exe sioyek.exe")
-      Send "{F11}"
+      Run VIVALDI_DIR . "\vivaldi.exe"
+      Sleep 3000
+      WinActivate("ahk_exe vivaldi.exe")
     }
     return
   }
