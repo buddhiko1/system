@@ -2,27 +2,8 @@
 HOME := "C:\Users\buddh"
 WIREGUARD_CONF := HOME . "\Documents\client.conf"
 VIVALDI_DIR := "C:\Users\buddh\AppData\Local\Vivaldi\Application"
-
-; switch input method
-^Space::
-  {
-    Send "^{Shift}"
-    return
-  }
-
-  ; task manager
-#i::
-  {
-    Run "taskmgr"
-    return
-  }
-
-  ; close process
-#Space::
-  {
-    Send "!{F4}"
-    return
-  }
+SIOYEK_DIR := HOME . "\Documents\sioyek-release-windows"
+GOLDENDICT_DIR := "C:\Program Files (x86)\GoldenDict"
 
   ; direction
 CapsLock & j::
@@ -56,6 +37,35 @@ CapsLock & d::
     return
   }
 
+  ; switch input method
+^Space::
+  {
+    Send "^{Shift}"
+    return
+  }
+
+  ; task manager
+#i::
+  {
+    Run "taskmgr"
+    return
+  }
+
+  ; close process
+#Space::
+  {
+    Send "!{F4}"
+    return
+  }
+
+  ; full screen
+#f::
+  {
+    Send "{f11}"
+    return
+  }
+
+
   ; file explorer
 #j::
   {
@@ -76,6 +86,13 @@ CapsLock & d::
     return
   }
 
+  ; helix
+#n::
+  {
+    Run "hx"
+    return
+  }
+
   ; vivaldi
 #y::
   {
@@ -85,6 +102,32 @@ CapsLock & d::
       Run VIVALDI_DIR . "\vivaldi.exe"
       Sleep 3000
       WinActivate("ahk_exe vivaldi.exe")
+    }
+    return
+  }
+
+  ; sioyek
+#p::
+  {
+    if WinExist("ahk_exe sioyek.exe") {
+      WinActivate("ahk_exe sioyek.exe")
+    } else {
+      Run SIOYEK_DIR . "\sioyek.exe"
+      Sleep 500
+      WinActivate("ahk_exe sioyek.exe")
+    }
+    return
+  }
+
+  ; GoldenDict
+#;::
+  {
+    if WinExist("ahk_exe GoldenDict.exe") {
+      WinActivate("ahk_exe GoldenDict.exe")
+    } else {
+      Run GOLDENDICT_DIR . "\GoldenDict.exe"
+      Sleep 1000
+      WinActivate("ahk_exe GoldenDict.exe")
     }
     return
   }
