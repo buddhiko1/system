@@ -4,6 +4,7 @@ WIREGUARD_CONF := HOME . "\Documents\client.conf"
 VIVALDI_DIR := "C:\Users\buddh\AppData\Local\Vivaldi\Application"
 SIOYEK_DIR := HOME . "\Documents\sioyek-release-windows"
 GOLDENDICT_DIR := "C:\Program Files (x86)\GoldenDict"
+CODE_DIR := HOME . "\AppData\Local\Programs\Microsoft VS Code"
 
   ; direction
 CapsLock & j::
@@ -86,6 +87,19 @@ CapsLock & d::
 #n::
   {
     Run "hx"
+    return
+  }
+
+  ; vscode
+#u:: 
+  {
+    if WinExist("ahk_exe Code.exe") {
+      WinActivate("ahk_exe Code.exe")
+    } else {
+      Run CODE_DIR . "\Code.exe"
+      Sleep 3000
+      WinActivate("ahk_exe Code.exe")
+    }
     return
   }
 

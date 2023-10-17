@@ -16,19 +16,7 @@
 					"PackageIdentifier" : "Git.Git"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.Edge"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.Office"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.OneDrive"
 				},
 				{
 					"PackageIdentifier" : "VivaldiTechnologies.Vivaldi"
@@ -50,15 +38,6 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode"
-				},
-				{
-					"PackageIdentifier" : "Google.Chrome"
-				},
-				{
-					"PackageIdentifier" : "WinFsp.WinFsp"
-				},
-				{
-					"PackageIdentifier" : "Adobe.Acrobat.Reader.64-bit"
 				},
 				{
 					"PackageIdentifier" : "StephanDilly.gitui"
