@@ -76,13 +76,9 @@ CapsLock & d::
   ; terminal
 #Enter::
   {
-    if WinExist("ahk_exe WindowsTerminal.exe") {
-      WinActivate("ahk_exe WindowsTerminal.exe")
-    } else {
-      Run "wt.exe"
-      Sleep 1000
-      WinActivate("ahk_exe WindowsTerminal.exe")
-    }
+    Run "wt.exe"
+    Sleep 1000
+    WinActivate("ahk_exe WindowsTerminal.exe")
     return
   }
 

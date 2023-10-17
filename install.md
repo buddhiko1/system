@@ -19,3 +19,23 @@
     run `pnpm setup` after install pnpm with winget.
     add 'C:\Users\buddh\AppData\Local\pnpm' to user path.
     ```
+## Helix
+[keys.normal.space]
+"c" = { "r" = ":config-reload", "o" = ":config-open", "l" = ":open ~/AppData/Roaming/helix/languages.toml" }
+"t" = { "d" = ":theme github_dark", "l" = ":theme github_light" }
+"m" = { "m" = ":sh wt gitui" }
+"n" = { "n" = ":sh wt" }
+
+## windows terminal
+```
+  "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -nologo",
+  "font": 
+  {
+      "cellHeight": "1.6",
+      "face": "JetBrainsMono Nerd Font",
+      "size": 14.0
+  },
+  "padding": "0",
+  "scrollbarState": "hidden",
+  "useAtlasEngine": false
+```
