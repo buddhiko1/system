@@ -62,6 +62,7 @@ app-misc/nnn
 dev-vcs/git
 dev-vcs/gitui
 dev-util/codespell
+dev-util/jenkins-bin
 
 # office
 mail-client/thunderbird-bin
