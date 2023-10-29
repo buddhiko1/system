@@ -57,8 +57,6 @@ media-fonts/noto-emoji
 # tools
 app-containers/docker
 app-containers/docker-compose
-dev-db/dbeaver-bin
-app-misc/nnn
 dev-vcs/git
 dev-vcs/gitui
 dev-util/codespell

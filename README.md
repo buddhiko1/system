@@ -121,6 +121,10 @@
   `add "/home/shun/.local/share/pnpm" to secure_path with visudo.
   ```
 
+## Python virtualenv
+ - `virtualenv .python/venv`
+ - `source .python/venv/bin/activate.fish`
+
 ## Sioyek
 
 - Install sys-fs/fuse:0.

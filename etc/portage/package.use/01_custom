@@ -1,6 +1,5 @@
 media-fonts/nerd-fonts jetbrainsmono symbolsmono
 gui-wm/sway tray grimshot wallpapers
 www-client/vivaldi proprietary-codecs
-app-text/goldendict ffmpeg multimedia
-app-misc/nnn nerdfonts
 net-wireless/bluez btpclient
+media-gfx/inkscape dia graphicsmagick imagemagick inkjar jemalloc postscript svg2 visio wpg
