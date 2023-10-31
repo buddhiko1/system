@@ -122,8 +122,9 @@
   ```
 
 ## Python virtualenv
- - `virtualenv .python/venv`
- - `source .python/venv/bin/activate.fish`
+
+- `virtualenv .python/venv`
+- `source .python/venv/bin/activate.fish`
 
 ## Sioyek
 
@@ -137,3 +138,18 @@
 - Get vcp code `sudo ddcutil vcpinfo | grep Bright`
 - Get current brightness `sudo ddcutil getvcp code`
 - Adjust brightness `sudo ddcutil setvcp code - 10`
+
+## Upgrade kernel
+1. `eu`
+2. `sudo eselect kernel list`
+3. `sudo eselect kernel set <number of kernel name>`
+4. `copy kernel .config`
+5. `sudo make oldconfig`
+6. `sudo make -j8`
+7. `sudo make modules_install`
+8. `sudo make install`
+10. `emerge --ask @module-rebuild`
+11. `sudo dracut --kver=6.1.57-gentoo`
+12. `grub-mkconfig -o /boot/grub/grub.cfg`
+13. `reboot`
+14. `remove old kernel dir and boot entry`
