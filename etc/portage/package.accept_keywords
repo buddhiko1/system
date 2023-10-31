@@ -6,13 +6,9 @@ gui-apps/wev ~amd64
 gui-apps/swappy ~amd64
 media-gfx/swayimg ~amd64
 app-editors/vscode ~amd64
-app-containers/docker-compose **
 app-editors/helix ~amd64
 app-misc/ddcutil ~amd64
 dev-util/jenkins-bin ~amd64
-
-# language server
-dev-util/lua-language-server ~amd64
 
 # xiaoyifang/goldendict
 app-text/goldendict **

@@ -8,9 +8,6 @@ media-fonts/nerd-fonts::gentoo-zh
 media-gfx/swayimg::src_prepare-overlay
 app-i18n/wordninja-rs::goduck777
 
-# language server
-dev-util/lua-language-server::guru
-
 # xiaoyifang/goldendict
 app-text/goldendict::12101111-overlay
 dev-libs/libthai::gentoo-zh

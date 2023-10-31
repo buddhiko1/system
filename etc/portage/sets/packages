@@ -64,7 +64,6 @@ dev-util/jenkins-bin
 media-libs/libwebp
 
 # office
-mail-client/thunderbird-bin
 media-gfx/inkscape
 www-client/vivaldi
 
@@ -80,14 +79,10 @@ dev-php/composer
 dev-lang/php
 dev-python/pynvim
 sys-apps/ripgrep
-sys-apps/fd
 
 # input methods
 app-i18n/fcitx-configtool
 app-i18n/fcitx-rime
-
-# lsp
-dev-util/lua-language-server
 
 # large packages
 # net-libs/nodejs
