@@ -110,7 +110,7 @@ CapsLock & d::
       WinActivate("ahk_exe vivaldi.exe")
     } else {
       Run VIVALDI_DIR . "\vivaldi.exe"
-      Sleep 3000
+      Sleep 4000
       WinActivate("ahk_exe vivaldi.exe")
     }
     return
@@ -123,7 +123,7 @@ CapsLock & d::
       WinActivate("ahk_exe sioyek.exe")
     } else {
       Run SIOYEK_DIR . "\sioyek.exe"
-      Sleep 500
+      Sleep 1000
       WinActivate("ahk_exe sioyek.exe")
     }
     return
@@ -136,7 +136,7 @@ CapsLock & d::
       WinActivate("ahk_exe GoldenDict.exe")
     } else {
       Run GOLDENDICT_DIR . "\GoldenDict.exe"
-      Sleep 1000
+      Sleep 3000
       WinActivate("ahk_exe GoldenDict.exe")
     }
     return
@@ -152,5 +152,17 @@ CapsLock & d::
 #PgDn::
   {
     Run "*RunAs wireguard.exe /uninstalltunnelservice client"
+    return
+  }
+
+  ; wireguard
+#w::
+  {
+    Run "hx -w C:\Users\buddh\Documents\GitHub\system"
+    return
+  }
+#e::
+  {
+    Run "hx -w C:\Users\buddh\Documents\GitHub\pali-web"
     return
   }

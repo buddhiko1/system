@@ -39,3 +39,5 @@
   "scrollbarState": "hidden",
   "useAtlasEngine": false
 ```
+## set autohotkey as a startup app.
+  - https://windowsloop.com/delay-startup-programs-with-task-scheduler/
