@@ -11,3 +11,4 @@ alacritty-themes
 eslint
 prettier
 @compodoc/live-server
+graphql-language-service-cli

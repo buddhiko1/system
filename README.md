@@ -150,6 +150,6 @@
 8. `sudo make install`
 10. `emerge --ask @module-rebuild`
 11. `sudo dracut --kver=6.1.57-gentoo`
-12. `grub-mkconfig -o /boot/grub/grub.cfg`
-13. `reboot`
-14. `remove old kernel dir and boot entry`
+12. `remove old kernel dir and boot entry`
+13. `grub-mkconfig -o /boot/grub/grub.cfg`
+14. `reboot`
