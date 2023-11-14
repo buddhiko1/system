@@ -156,12 +156,12 @@ CapsLock & d::
   }
 
   ; wireguard
-#w::
+#e::
   {
     Run "hx -w C:\Users\buddh\Documents\GitHub\system"
     return
   }
-#e::
+#w::
   {
     Run "hx -w C:\Users\buddh\Documents\GitHub\pali-web"
     return
