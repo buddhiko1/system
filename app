@@ -19,10 +19,7 @@ sway-contrib
 swappy
 swayimg
 pavucontrol
-thunderbird
 vivaldi-stable
 ripgrep
 fd
 xcursor-themes
-
-lua-language-server
