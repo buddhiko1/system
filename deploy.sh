@@ -28,6 +28,7 @@ do
   sudo bash -c "$(declare -f create_soft_link); create_soft_link '$HOME/system/etc/portage' '/etc/portage' '$file'"
 done
 sudo bash -c "$(declare -f create_soft_link); create_soft_link '$HOME/system/kernel' '/usr/src/linux' '.config'"
+sudo bash -c "$(declare -f create_soft_link); create_soft_link '$HOME/system/etc/cron.weekly' '/etc/cron.weekly' 'repository_sync'"
 sudo bash -c "$(declare -f create_soft_link); create_soft_link '$HOME/system/etc' '/etc' 'fstab'"
 sudo bash -c "$(declare -f create_soft_link); create_soft_link '$HOME/system/etc' '/etc' 'environment'"
 sudo mkdir -p /etc/systemd/system/getty@tty1.service.d
