@@ -62,6 +62,7 @@ dev-vcs/gitui
 dev-util/codespell
 dev-util/jenkins-bin
 media-libs/libwebp
+sys-apps/pnpm
 
 # office
 media-gfx/inkscape

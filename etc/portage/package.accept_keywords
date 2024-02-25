@@ -9,3 +9,8 @@ app-editors/vscode ~amd64
 app-editors/helix ~amd64
 app-misc/ddcutil ~amd64
 dev-util/jenkins-bin ~amd64
+sys-apps/pnpm ~amd64
+
+# for goldendict
+dev-libs/libthai ~amd64
+dev-libs/libdatrie ~amd64

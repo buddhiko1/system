@@ -5,6 +5,7 @@ dockerfile-language-server-nodejs
 yaml-language-server
 @tailwindcss/language-server
 @angular/language-server
+@vue/language-server
 graphql-language-service
 @taplo/cli
 alacritty-themes

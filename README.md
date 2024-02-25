@@ -108,12 +108,10 @@
 
 ## Node
 
-- `sudo npm install -g pnpm`.
 - pnpm
   ```
-  pnpm setup
   fish_add_path /home/shun/.local/share/pnpm
-  pnpm config set registry https://registry.npm.taobao.org
+  # pnpm config set registry https://registry.npm.taobao.org
   pnpm config set -g auto-install-peers true
   pnpm install -g n
   sudo n lts

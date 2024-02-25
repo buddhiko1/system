@@ -5,5 +5,10 @@ gui-apps/wlsunset::guru
 gui-apps/wev::guru
 media-fonts/symbola::guru
 media-fonts/nerd-fonts::gentoo-zh
+sys-apps/pnpm::gentoo-zh
 media-gfx/swayimg::src_prepare-overlay
 app-i18n/wordninja-rs::goduck777
+
+# for goldendict
+dev-libs/libthai::guru
+dev-libs/libdatrie::guru
