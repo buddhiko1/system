@@ -62,6 +62,7 @@
 - [Search package](https://gpo.zugaina.org/app-i18n/fcitx)
 - `sudo emerge --ask app-portage/cfg-update`.
 - `sudo emerge -av @system @tools`
+- `ei @packages` install custom packages.
 
 ## Network
 
