@@ -1,6 +1,2 @@
-*/*::dm9pZCAq 
 */*::gentoo-zh
 */*::guru
-*/*::src_prepare-overlay
-*/*::mva
-*/*::goduck777
