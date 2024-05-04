@@ -1,0 +1,47 @@
+# required by sys-kernel/gentoo-kernel
+*/* dist-kernel
+# required by media-libs/mesa-24.0.4::gentoo
+# required by gui-libs/wlroots-0.17.2::gentoo
+# required by gui-wm/sway-1.9::gentoo
+# required by sway (argument)
+>=media-libs/libglvnd-1.7.0 X
+# required by gui-wm/sway-1.9::gentoo
+# required by @selected
+# required by @world (argument)
+>=gui-libs/wlroots-0.17.2 X
+# required by x11-base/xwayland-23.2.6::gentoo
+# required by gui-libs/wlroots-0.17.2::gentoo[X]
+# required by gui-wm/sway-1.9::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/libepoxy-1.5.10-r2 X
+# required by x11-base/xwayland-23.2.6::gentoo
+# required by gui-libs/wlroots-0.17.2::gentoo[X]
+# required by gui-wm/sway-1.9::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/mesa-24.0.4 X
+# required by www-client/vivaldi-6.6.3271.61::gentoo[-ffmpeg-chromium,proprietary-codecs]
+# required by vivaldi (argument)
+>=media-video/ffmpeg-6.1.1-r5 chromium
+# required by sys-boot/os-prober-1.81::gentoo
+# required by sys-boot/os-prober (argument)
+>=sys-boot/grub-2.12-r4 mount
+# required by media-sound/pavucontrol-5.0-r2::gentoo
+# required by media-sound/pavucontrol (argument)
+>=dev-cpp/gtkmm-3.24.9:3.0 X
+# required by media-libs/libcanberra-0.30-r7::gentoo[gtk3]
+# required by media-sound/pavucontrol-5.0-r2::gentoo
+# required by media-sound/pavucontrol (argument)
+>=x11-libs/gtk+-3.24.41 X
+# required by media-sound/pulseaudio-daemon-17.0-r1::gentoo[alsa,alsa-plugin]
+# required by media-libs/libpulse-17.0::gentoo
+# required by media-sound/pavucontrol-5.0-r2::gentoo
+# required by media-sound/pavucontrol (argument)
+>=media-plugins/alsa-plugins-1.2.7.1-r1 pulseaudio
+# required by sys-auth/polkit-123::gentoo[systemd]
+>=sys-apps/systemd-255.4 policykit
+# required by dev-qt/qt3d-6.7.0::gentoo
+# required by app-text/sioyek-9999::guru
+# required by app-text/sioyek (argument)
+>=dev-qt/qtbase-6.7.0-r2 opengl

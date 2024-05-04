@@ -1,13 +1,9 @@
 # tools
 dev-vcs/gitui::guru
-app-text/tldr::guru
 gui-apps/wlsunset::guru
 gui-apps/wev::guru
 media-fonts/symbola::guru
 media-gfx/swayimg::guru
+app-text/sioyek::guru
 media-fonts/nerd-fonts::gentoo-zh
 sys-apps/pnpm::gentoo-zh
-
-# for goldendict
-dev-libs/libthai::guru
-dev-libs/libdatrie::guru
