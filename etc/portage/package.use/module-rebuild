@@ -27,21 +27,5 @@
 # required by sys-boot/os-prober-1.81::gentoo
 # required by sys-boot/os-prober (argument)
 >=sys-boot/grub-2.12-r4 mount
-# required by media-sound/pavucontrol-5.0-r2::gentoo
-# required by media-sound/pavucontrol (argument)
->=dev-cpp/gtkmm-3.24.9:3.0 X
-# required by media-libs/libcanberra-0.30-r7::gentoo[gtk3]
-# required by media-sound/pavucontrol-5.0-r2::gentoo
-# required by media-sound/pavucontrol (argument)
->=x11-libs/gtk+-3.24.41 X
-# required by media-sound/pulseaudio-daemon-17.0-r1::gentoo[alsa,alsa-plugin]
-# required by media-libs/libpulse-17.0::gentoo
-# required by media-sound/pavucontrol-5.0-r2::gentoo
-# required by media-sound/pavucontrol (argument)
->=media-plugins/alsa-plugins-1.2.7.1-r1 pulseaudio
 # required by sys-auth/polkit-123::gentoo[systemd]
 >=sys-apps/systemd-255.4 policykit
-# required by dev-qt/qt3d-6.7.0::gentoo
-# required by app-text/sioyek-9999::guru
-# required by app-text/sioyek (argument)
->=dev-qt/qtbase-6.7.0-r2 opengl

@@ -1,4 +1,4 @@
-#!/bin/basjjjh
+#!/bin/bash
 
 function create_soft_link {
   file_path="$1/$3"
@@ -22,11 +22,12 @@ function create_soft_link {
 }
 
 # etc
-files=("package.use" "repos.conf" "make.conf" "package.accept_keywords" "package.license" "package.mask" "package.unmask")
+files=("package.use" "repos.conf" "binrepos.conf" "make.conf" "package.accept_keywords" "package.license" "package.mask" "package.unmask")
 for file in "${files[@]}"
 do
   sudo bash -c "$(declare -f create_soft_link); create_soft_link '$HOME/system/etc/portage' '/etc/portage' '$file'"
 done
 sudo bash -c "$(declare -f create_soft_link); create_soft_link '$HOME/system/etc' '/etc' 'fstab'"
 sudo bash -c "$(declare -f create_soft_link); create_soft_link '$HOME/system/etc' '/etc' 'environment'"
-copy autologin.conf to /etc/systemd/system/getty@tty1.service.d
+sudo mkdir -p /etc/systemd/system/getty@tty1.service.d
+sudo bash -c "$(declare -f create_soft_link); create_soft_link '$HOME/system/etc' '/etc/systemd/system/getty@tty1.service.d' 'autologin.conf'"

@@ -10,4 +10,4 @@ sys-apps/pnpm ~amd64
 media-fonts/nerd-fonts ~amd64
 media-fonts/symbola ~amd64
 dev-vcs/gitui ~amd64
-app-text/sioyek **
+x11-terms/alacritty ~amd64

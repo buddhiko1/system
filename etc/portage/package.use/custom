@@ -1,2 +1,3 @@
 media-fonts/nerd-fonts X jetbrainsmono symbolsmono
 gui-wm/sway X tray grimshot swaynag
+www-client/vivaldi proprietary-codecs ffmpeg-chromium
