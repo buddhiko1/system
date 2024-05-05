@@ -12,8 +12,6 @@ media-fonts/symbola ~amd64
 dev-vcs/gitui ~amd64
 x11-terms/alacritty ~amd64
 www-client/vivaldi ~amd64
-app-i18n/ibus-rime ~amd64
-# app-i18n/fcitx-rime ~amd64
 app-office/onlyoffice-bin ~amd64
 app-text/goldendict ~amd64
 app-editors/helix ~amd64

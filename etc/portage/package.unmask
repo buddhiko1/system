@@ -7,7 +7,3 @@ media-gfx/swayimg::guru
 app-text/sioyek::guru
 media-fonts/nerd-fonts::gentoo-zh
 sys-apps/pnpm::gentoo-zh
-
-# for dict
-dev-libs/libthai::guru
-dev-libs/libdatrie::guru
