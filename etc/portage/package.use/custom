@@ -1,3 +1,4 @@
-media-fonts/nerd-fonts X jetbrainsmono symbolsmono
-gui-wm/sway X tray grimshot swaynag
+media-fonts/nerd-fonts jetbrainsmono symbolsmono
+gui-wm/sway tray grimshot swaynag
 www-client/vivaldi proprietary-codecs ffmpeg-chromium
+media-libs/libcanberra alsa

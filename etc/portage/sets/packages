@@ -1,5 +1,4 @@
 # system
-app-shells/bash
 app-shells/fish
 app-admin/sudo
 app-arch/zip
@@ -36,10 +35,9 @@ app-portage/mirrorselect
 app-eselect/eselect-repository
 
 # sway
-gui-apps/mako
-gui-apps/swappy
 gui-apps/swayidle
 gui-apps/swaylock
+gui-apps/swappy
 gui-apps/wev
 gui-apps/wl-clipboard
 gui-apps/wlsunset
@@ -59,16 +57,10 @@ dev-vcs/git
 dev-vcs/gitui
 dev-util/codespell
 dev-util/jenkins-bin
-media-libs/libwebp
 sys-apps/pnpm
-
-# office
-media-gfx/inkscape
-www-client/vivaldi
 
 # editor
 app-editors/helix
-app-editors/vscode
 app-editors/nano
 
 # nvim
@@ -82,7 +74,3 @@ sys-apps/ripgrep
 # input methods
 app-i18n/fcitx-configtool
 app-i18n/fcitx-rime
-
-# large packages
-# net-libs/nodejs
-# app-text/sigil
