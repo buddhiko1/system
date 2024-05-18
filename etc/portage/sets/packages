@@ -1,26 +1,16 @@
 # system
 app-shells/fish
 app-admin/sudo
-app-arch/zip
-app-misc/neofetch
-app-misc/ddcutil
-app-arch/unrar
 net-misc/dhcpcd
 net-wireless/iwd
-net-vpn/wireguard-tools
 x11-terms/alacritty
 sys-apps/miscfiles
 sys-apps/mlocate
 sys-boot/grub
-sys-fs/duf
-sys-fs/fuse:0
-sys-fs/ncdu
-sys-fs/udisks
 sys-fs/btrfs-progs
 sys-kernel/linux-firmware
 sys-firmware/intel-microcode
 sys-kernel/gentoo-kernel
-sys-process/btop
 sys-process/cronie
 dev-python/pip
 
@@ -58,6 +48,17 @@ dev-vcs/gitui
 dev-util/codespell
 dev-util/jenkins-bin
 sys-apps/pnpm
+gui-apps/grimshot
+app-arch/zip
+app-misc/neofetch
+app-misc/ddcutil
+app-arch/unrar
+sys-fs/ncdu
+sys-fs/udisks
+net-vpn/wireguard-tools
+sys-fs/duf
+sys-fs/fuse:0
+sys-process/btop
 
 # editor
 app-editors/helix
