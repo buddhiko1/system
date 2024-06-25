@@ -91,7 +91,7 @@ CapsLock & d::
   }
 
   ; vscode
-#u:: 
+#v:: 
   {
     if WinExist("ahk_exe Code.exe") {
       WinActivate("ahk_exe Code.exe")
@@ -136,8 +136,6 @@ CapsLock & d::
       WinActivate("ahk_exe shotcut.exe")
     } else {
       Run "C:\Program Files\Shotcut\shotcut.exe"
-      Sleep 4000
-      WinActivate("ahk_exe shotcut.exe")
     }
     return
   }
@@ -149,8 +147,6 @@ CapsLock & d::
       WinActivate("ahk_exe obs64.exe")
     } else {
       Run "C:\Program Files\obs-studio\bin\64bit\obs64.exe"
-      Sleep 4000
-      WinActivate("ahk_exe obs64.exe")
     }
     return
   }
@@ -162,8 +158,6 @@ CapsLock & d::
       WinActivate("ahk_exe inkscape.exe")
     } else {
       Run "C:\Program Files\Inkscape\bin\inkscape.exe"
-      Sleep 4000
-      WinActivate("ahk_exe inkscape.exe")
     }
     return
   }
@@ -175,8 +169,17 @@ CapsLock & d::
       WinActivate("ahk_exe Anytype.exe")
     } else {
       Run "C:\Users\buddh\AppData\Local\Programs\anytype\Anytype.exe"
-      Sleep 4000
-      WinActivate("ahk_exe Anytype.exe")
+    }
+    return
+  }
+
+  ; onlyoffice
+#e::
+  {
+    if WinExist("ahk_exe DesktopEditors.exe") {
+      WinActivate("ahk_exe DesktopEditors.exe")
+    } else {
+      Run "C:\Program Files\ONLYOFFICE\DesktopEditors\DesktopEditors.exe"
     }
     return
   }
