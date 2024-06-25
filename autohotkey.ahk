@@ -2,7 +2,7 @@
 HOME := "C:\Users\buddh"
 WIREGUARD_CONF := HOME . "\Documents\client.conf"
 VIVALDI_DIR := "C:\Users\buddh\AppData\Local\Vivaldi\Application"
-SIOYEK_DIR := HOME . "\Documents\sioyek-release-windows"
+SIOYEK_DIR := HOME . "\Documents\software\sioyek-release-windows"
 GOLDENDICT_DIR := "C:\Program Files (x86)\GoldenDict"
 CODE_DIR := HOME . "\AppData\Local\Programs\Microsoft VS Code"
 
@@ -46,7 +46,7 @@ CapsLock & d::
   }
 
   ; task manager
-#i::
+#t::
   {
     Run "taskmgr"
     return
@@ -129,6 +129,58 @@ CapsLock & d::
     return
   }
 
+  ; shotcut
+#c::
+  {
+    if WinExist("ahk_exe shotcut.exe") {
+      WinActivate("ahk_exe shotcut.exe")
+    } else {
+      Run "C:\Program Files\Shotcut\shotcut.exe"
+      Sleep 4000
+      WinActivate("ahk_exe shotcut.exe")
+    }
+    return
+  }
+
+  ; obs
+#o::
+  {
+    if WinExist("ahk_exe obs64.exe") {
+      WinActivate("ahk_exe obs64.exe")
+    } else {
+      Run "C:\Program Files\obs-studio\bin\64bit\obs64.exe"
+      Sleep 4000
+      WinActivate("ahk_exe obs64.exe")
+    }
+    return
+  }
+
+  ; inkscape
+#i::
+  {
+    if WinExist("ahk_exe inkscape.exe") {
+      WinActivate("ahk_exe inkscape.exe")
+    } else {
+      Run "C:\Program Files\Inkscape\bin\inkscape.exe"
+      Sleep 4000
+      WinActivate("ahk_exe inkscape.exe")
+    }
+    return
+  }
+
+  ; anytype
+#a::
+  {
+    if WinExist("ahk_exe Anytype.exe") {
+      WinActivate("ahk_exe Anytype.exe")
+    } else {
+      Run "C:\Users\buddh\AppData\Local\Programs\anytype\Anytype.exe"
+      Sleep 4000
+      WinActivate("ahk_exe Anytype.exe")
+    }
+    return
+  }
+
   ; GoldenDict
 #;::
   {
@@ -152,17 +204,5 @@ CapsLock & d::
 #PgDn::
   {
     Run "*RunAs wireguard.exe /uninstalltunnelservice client"
-    return
-  }
-
-  ; wireguard
-#e::
-  {
-    Run "hx -w C:\Users\buddh\Documents\GitHub\system"
-    return
-  }
-#w::
-  {
-    Run "hx -w C:\Users\buddh\Documents\GitHub\pali-web"
     return
   }
