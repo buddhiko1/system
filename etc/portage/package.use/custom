@@ -7,5 +7,5 @@ media-gfx/inkscape jpeg svg2 visio cdr dia exif
 media-gfx/swayimg tiff svg webp
 
 ### resolve conflict
-sys-libs/zlib minizip
-dev-libs/libxml2 icu
+# sys-libs/zlib minizip
+# dev-libs/libxml2 icu

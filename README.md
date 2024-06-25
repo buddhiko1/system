@@ -59,6 +59,9 @@
 - Enable systemd-networkd.service.
 - Enable systemd-resolved.service.
 
+## sway
+- Get window infomation: `swaymsg -t get_tree`
+
 ## ssh
 
 - Generate ssh key `ssh-keygen -t ed25519 -C "example@outlook.com"`.
