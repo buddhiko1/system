@@ -59,10 +59,10 @@
 - Enable systemd-networkd.service.
 - Enable systemd-resolved.service.
 
-## sway
+## Sway
 - Get window infomation: `swaymsg -t get_tree`
 
-## ssh
+## Ssh
 
 - Generate ssh key `ssh-keygen -t ed25519 -C "example@outlook.com"`.
 - [add to github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
@@ -101,6 +101,10 @@
 
 - Install sys-fs/fuse:0.
 - Open appimage.
+
+## Obs-studio
+
+- systemctl --user enable --now pipewire-pulse.socket wireplumber.service pipewire.service
 
 ## Brightness
 

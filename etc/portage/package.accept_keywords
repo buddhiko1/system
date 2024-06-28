@@ -19,3 +19,9 @@ app-editors/helix ~amd64
 media-video/obs-studio ~amd64
 media-gfx/inkscape ~amd64
 app-text/sigil ~amd64
+
+
+# obs-studio
+media-libs/libvpl ~amd64
+media-libs/intel-mediasdk ~amd64
+media-video/v4l2loopback **
